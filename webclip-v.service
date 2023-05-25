@@ -4,7 +4,6 @@ After=network.target
 
 [Service]
 ExecStart=/home/webclip-vlang/webclip-vlang -c /root/tls/ivi.cx/ivi.cx.crt -k /root/tls/ivi.cx/ivi.cx.key -a /root/chain.pem -p 7002
-RootDirectory=/home/webclip-vlang/webclip-vlang
 TimeoutStopSec=5s
 LimitNOFILE=1048576
 LimitNPROC=512

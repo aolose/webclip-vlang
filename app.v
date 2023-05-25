@@ -85,7 +85,7 @@ fn new_app(crt string, key string, ca string, port int) &App {
 			cache: map[string]&Payload{}
 		}
 	}
-	app.mount_static_folder_at(os.resource_abs_path('statics'), '/')
+	app.mount_static_folder_at('statics', '/')
 	return app
 }
 
