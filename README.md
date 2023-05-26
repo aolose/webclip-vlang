@@ -16,7 +16,7 @@ generate signed webClip file
 ```
 ./webclip-vlang -c xxx.crt -k xxx.key -a chain.pem -p 7001
 ```
-open `http://127.0.0.1:8081`
+open `http://127.0.0.1:7001`
 
 ### add service (ubuntu)
 - edit webclip.service
